@@ -6,3 +6,4 @@ TODO:
   -Update CSS to use proper colors
   -Add images
   -Update site text with relevant information
+  -test
