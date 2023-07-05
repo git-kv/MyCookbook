@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .title, .hero {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: red;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 25px;
+}
+
+.title {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.title-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title-right {
+    width: 500px;
+    height: 200px;
+    background-color: purple;
+}
+
+button {
+    max-width: 100px;
+}
+
+.hero {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: aqua;
+}
