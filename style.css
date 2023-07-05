@@ -12,7 +12,12 @@
     justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: red;
+    background-color: #1f2937;
+}
+
+.header p {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header ul {
@@ -22,6 +27,8 @@
 
 li {
     margin-left: 25px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .title {
@@ -30,7 +37,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: red;
+    background-color: #1f2937;
 }
 
 .title-left {
@@ -43,6 +50,14 @@ li {
 
 .title-left p {
     margin-bottom: 15px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title-left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 
 .title-right {
@@ -55,18 +70,20 @@ button {
     max-width: 100px;
     padding: 5px 0px 5px 0px;
     border-radius: 5px;
-    background-color: blue;
+    background-color: #3882f6;
+    color: white;
 }
 
 .hero {
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
-    background-color: aqua;
 }
 
 .hero h2 {
-    font-size: 42px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .hero-image {
@@ -75,6 +92,7 @@ button {
     border: solid;
     border-radius: 15px;
     margin-bottom: 10px;
+    border-color: #3882f6;
 }
 
 .hero-container {
@@ -90,26 +108,30 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 15px;
+    color: #1f2937;
 }
 
 .quote {
     padding: 100px 33% 100px 33%;
-    background-color: yellow;
+    background-color: #e5e7eb;
 }
 
 .quote-text {
     font-style: italic;
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
 }
 
 .quote-author {
     text-align: right;
     font-weight: bold;
+    color: #1f2937;
     padding: 20px 20px 0px 0px;
 }
 
 .sign-up {
-    background-color: blue;
+    background-color: #3882f6;
     margin: 100px 30% 100px 30%;
     display: flex;
     padding: 20px 50px 20px 50px;
@@ -118,6 +140,7 @@ button {
     justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 15px;
+    color: white;
 }
 
 .sign-up button {
@@ -134,5 +157,6 @@ button {
 .footer {
     text-align: center;
     padding: 20px 0px 20px 0px;
-    background-color: orange;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
