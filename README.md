@@ -6,4 +6,4 @@ TODO:
   -Update CSS to use proper colors
   -Add images
   -Update site text with relevant information
-  -test
+  -Make popular recipes cycle with arrows to progress the 4 displayed
