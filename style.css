@@ -3,11 +3,11 @@
     padding: 0;
 }
 
-.header, .title, .hero {
+.navbar, .title, .info, .intro .recipe-list {
     padding-left: 10%;
     padding-right: 10%;
 }
-.header {
+.navbar {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
@@ -15,17 +15,17 @@
     background-color: #1f2937;
 }
 
-.header p {
+.navbar p {
     font-size: 24px;
     color: #f9faf8;
 }
 
-.header ul {
+.navbar ul {
     display: flex;
     list-style: none;
 }
 
-.header a {
+.navbar a {
     text-decoration: none;
     color: #e5e7eb;
 }
@@ -79,28 +79,29 @@ button {
     color: white;
 }
 
-.hero {
+.info {
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
 }
 
-.hero h2 {
+.info h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
 
-.hero-image {
+.info-image {
     width: 150px;
     height: 150px;
     border: solid;
     border-radius: 15px;
     margin-bottom: 10px;
     border-color: #3882f6;
+    flex-shrink: 0;
 }
 
-.hero-container {
+.info-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -165,3 +166,36 @@ button {
     background-color: #1f2937;
     color: #e5e7eb;
 }
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    padding-bottom: 50px;
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.recipe-list .content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.info-text {
+    margin-left: 50px;
+}
+
